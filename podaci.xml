@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<!DOCTYPE podaci SYSTEM "gramatika.dtd">
+
+<podaci>
+    <glumac glumacId="1" nacionalnost="US" glumacSpol="M" wikiPageTitle="Jeff Goldblum" brojDjece="2">
+        <ime>Jeff</ime>
+        <prezime>Goldblum</prezime>
+        <datum_rodjenja>October 22, 1952</datum_rodjenja>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Patricia</partnerIme>
+            <partnerPrezime>Gaul</partnerPrezime>
+        </partner>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Geena</partnerIme>
+            <partnerPrezime>Davis</partnerPrezime>
+        </partner>
+        <partner statusVeze="Oženjeni">
+            <partnerIme>Emilie</partnerIme>
+            <partnerPrezime>Livingston</partnerPrezime>
+        </partner>
+        <zanimanje imeZanimanja="Glumac"/>
+        <biografija>
+            Jeffrey Lynn Goldblum (born October 22, 1952) is an American actor and musician.
+            He has starred in some of the highest-grossing films of his era,
+            Jurassic Park (1993) and Independence Day (1996), as well as their respective sequels,
+            The Lost World: Jurassic Park (1997) and Jurassic World: Fallen Kingdom (2018),
+            and Independence Day: Resurgence (2016).
+            Goldblum starred in films including Invasion of the Body Snatchers (1978),
+            The Big Chill (1983), and Into the Night (1985)
+            before coming to the attention of wider audiences
+            in David Cronenberg's The Fly (1986) which earned him a Saturn Award for Best Actor.
+            His other films include The Adventures of Buckaroo Banzai Across the 8th Dimension (1984),
+            The Tall Guy (1989), Deep Cover (1992), Powder (1995),
+            The Prince of Egypt (1998), Cats &amp; Dogs (2001), Igby Goes Down (2002),
+            The Life Aquatic with Steve Zissou (2004), Adam Resurrected (2008),
+            Le Week-End (2013), The Grand Budapest Hotel (2014), and Thor: Ragnarok (2017).
+            He also starred in several TV series including the eighth and ninth seasons of
+            Law &amp; Order: Criminal Intent as Zack Nichols. For directing the short film Little Surprises,
+            he was nominated for the Academy Award for Best Live Action Short Film.
+        </biografija>
+        <filmografija>Death Wish, Nashville, Annie Hall, The Fly, Jurassic Park, Independence Day, Independence Day 2
+        </filmografija>
+        <rezidencija>Los Angeles, California, U.S.</rezidencija>
+        <rezidencija>New York, New York, U.S.</rezidencija>
+    </glumac>
+
+
+    <glumac glumacId="2" nacionalnost="US" glumacSpol="M" wikiPageTitle="Marlon Brando" brojDjece="11">
+        <ime>Marlon</ime>
+        <prezime>Brando</prezime>
+        <datum_rodjenja>April 3, 1924</datum_rodjenja>
+        <datum_smrti>July 1, 2004</datum_smrti>
+        <visina>175 cm</visina>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Anna</partnerIme>
+            <partnerPrezime>Kashfi</partnerPrezime>
+        </partner>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Movita</partnerIme>
+            <partnerPrezime>Castaneda</partnerPrezime>
+        </partner>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Tarita</partnerIme>
+            <partnerPrezime>Teriipaia</partnerPrezime>
+        </partner>
+        <zanimanje imeZanimanja="Glumac"/>
+        <zanimanje imeZanimanja="Redatelj"/>
+        <biografija>
+            Marlon Brando Jr. (April 3, 1924 – July 1, 2004) was an American actor and film director.
+            With a career spanning 60 years,
+            he is well-regarded for his cultural influence on 20th-century film.
+            Brando's Academy Award-winning performances include that of Terry Malloy in On the Waterfront (1954)
+            and Don Vito Corleone in The Godfather (1972). Brando was an activist for many causes,
+            notably the civil rights movement and various Native American movements.
+            He is credited with helping to popularize the Stanislavski system of acting,
+            having studied with Stella Adler in the 1940s.
+            He is often regarded as one of the first actors to bring Method Acting to mainstream audiences.
+            He initially gained acclaim and an Academy Award nomination for reprising the role of Stanley Kowalski
+            in the 1951 film adaptation of Tennessee Williams' play A Streetcar Named Desire,
+            a role that he originated successfully on Broadway.
+            He received further praise for his performance as Terry Malloy in On the Waterfront,
+            and his portrayal of the rebellious motorcycle gang leader Johnny Strabler
+            in The Wild One proved to be a lasting image in popular culture.
+            Brando received Academy Award nominations for playing Emiliano Zapata in Viva Zapata!;
+            Mark Antony in Joseph L. Mankiewicz's 1953 film adaptation of Shakespeare's Julius Caesar;
+            and Air Force Major Lloyd Gruver in Sayonara (1957),
+            an adaptation of James Michener's 1954 novel.
+            Brando was included in a list of Top Ten Money Making Stars three times in the 1950s,
+            coming in at number 10 in 1954, number 6 in 1955, and number 4 in 1958.
+            The 1960s saw Brando's career take a downturn.
+            He directed and starred in the cult western film One-Eyed Jacks,
+            a critical and commercial flop, after which he delivered a series of box-office failures,
+            beginning with the 1962 film adaptation of the novel Mutiny on the Bounty.
+            After 10 years, during which he did not appear in a successful film,
+            he won his second Academy Award for playing Vito Corleone in Francis Ford Coppola's The Godfather,
+            a role critics consider among his greatest.
+            The Godfather was then one of the most commercially successful films of all time.
+            With that and his Oscar-nominated performance in Last Tango in Paris,
+            Brando re-established himself in the ranks of top box-office stars,
+            placing sixth and tenth in the Money Making Stars poll in 1972 and 1973,
+            respectively. Brando took a four-year hiatus before appearing in The Missouri Breaks (1976).
+            After this, he was content with being a highly paid character actor in cameo roles,
+            such as in Superman (1978) and The Formula (1980), before taking a nine-year break from motion pictures.
+            According to the Guinness Book of World Records,
+            Brando was paid a record $3.7 million ($15 million in inflation-adjusted dollars)
+            and 11.75% of the gross profits for 13 days' work on Superman.
+            He finished out the 1970s with his controversial performance as Colonel Kurtz in another Coppola film,
+            Apocalypse Now, a box-office hit for which he was highly paid and which helped
+            finance his career layoff during the 1980s.
+            Brando was ranked by the American Film Institute as the fourth-greatest movie star among male movie stars
+            whose screen debuts occurred in or before 1950. He was one of six professional actors,
+            along with Charlie Chaplin, U.S. President Ronald Reagan, Lucille Ball,
+            Frank Sinatra, and Marilyn Monroe,
+            named in 1999 by Time magazine as one of its 100 Most Important People of the Century.[7]
+        </biografija>
+        <filmografija>Godfahter, Last Tango in Paris, Apocalypse Now, Superman, On the Waterfront</filmografija>
+    </glumac>
+
+
+    <glumac glumacId="3" nacionalnost="US" glumacSpol="M" wikiPageTitle="Tom Hanks" brojDjece="4">
+        <ime>Tom</ime>
+        <prezime>Hanks</prezime>
+        <datum_rodjenja>July 9, 1956</datum_rodjenja>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Samantha</partnerIme>
+            <partnerPrezime>Lewes</partnerPrezime>
+        </partner>
+        <partner statusVeze="Oženjeni">
+            <partnerIme>Rita</partnerIme>
+            <partnerPrezime>Wilson</partnerPrezime>
+        </partner>
+        <zanimanje imeZanimanja="Glumac"/>
+        <zanimanje imeZanimanja="Redatelj"/>
+        <biografija>
+            Thomas Jeffrey Hanks (born July 9, 1956) is an American actor and filmmaker.
+            Hanks is known for his comedic and dramatic roles in such films as Splash (1984),
+            Big (1988), Turner &amp; Hooch (1989),
+            A League of Their Own (1992),
+            Sleepless in Seattle (1993), Apollo 13 (1995),
+            You've Got Mail (1998), The Green Mile (1999), Cast Away (2000),
+            Road to Perdition (2002), Cloud Atlas (2012), Captain Phillips (2013),
+            Saving Mr. Banks (2013), and Sully (2016).
+            He has also starred in the Robert Langdon film series,
+            and voices Sheriff Woody in the Toy Story film series.
+            He is one of the most popular and recognizable film stars worldwide,
+            and is widely regarded as an American cultural icon.
+            Hanks has collaborated with film director Steven Spielberg on five films to date:
+            Saving Private Ryan (1998), Catch Me If You Can (2002), The Terminal (2004), Bridge of Spies (2015),
+            and The Post (2017), as well as the 2001 miniseries Band of Brothers,
+            which launched Hanks as a successful director, producer, and screenwriter. In 2010,
+            Spielberg and Hanks were executive producers on the HBO miniseries The Pacific.
+            Hanks' films have grossed more than $4.6 billion at U.S.
+            and Canadian box offices and more than $9.2 billion worldwide,
+            making him the fourth highest-grossing actor in North America.
+            Hanks has been nominated for numerous awards during his career.
+            He won a Golden Globe Award and an Academy Award for Best Actor for his role in Philadelphia (1993),
+            as well as a Golden Globe, an Academy Award, a Screen Actors Guild Award,
+            and a People's Choice Award for Best Actor for Forrest Gump (1994).
+            In 1995, Hanks became one of only two actors who won the Academy Award for Best Actor in consecutive years,
+            with Spencer Tracy being the other. In 2004,
+            he received the Stanley Kubrick Britannia Award for Excellence
+            in Film from the British Academy of Film and Television Arts (BAFTA).
+            In 2014, he received a Kennedy Center Honor, and in 2016,
+            he received a Presidential Medal of Freedom from President Barack Obama,
+            as well as the French Legion of Honor.
+        </biografija>
+        <filmografija>Cast Away, Forrest Gump, Saving Private Ryan, Big, Sully, Catch Me If You Can</filmografija>
+        <rezidencija>Los Angeles, California, U.S.</rezidencija>
+    </glumac>
+
+
+    <glumac glumacId="4" nacionalnost="AT" glumacSpol="M" wikiPageTitle="Arnold Schwarzenegger" brojDjece="5">
+        <ime>Arnold</ime>
+        <prezime>Schwarzenegger</prezime>
+        <datum_rodjenja>July 30, 1947</datum_rodjenja>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Maria</partnerIme>
+            <partnerPrezime>Shriver</partnerPrezime>
+        </partner>
+        <zanimanje imeZanimanja="Glumac"/>
+        <biografija>
+            Arnold Alois Schwarzenegger is an Austrian-American actor, filmmaker, businessman, author,
+            philanthropist, activist, politician, and former professional bodybuilder and powerlifter.
+            He served as the 38th Governor of California from 2003 to 2011.
+            Schwarzenegger began lifting weights at the age of 15.
+            He won the Mr. Universe title at age 20 and went on to win the Mr. Olympia contest seven times,
+            remaining a prominent presence in bodybuilding and writing many books and articles on the sport.
+            The Arnold Sports Festival,
+            considered the second most important professional bodybuilding event in recent years,
+            is named after him.
+            He is widely considered to be one of the greatest bodybuilders of all-time,
+            as well as the sport's most charismatic ambassador.
+            Schwarzenegger gained worldwide fame as a Hollywood action film icon.
+            His breakthrough film was the sword-and-sorcery epic Conan the Barbarian in 1982,
+            a box-office hit that resulted in a sequel.
+            In 1984, he appeared in the title role of James Cameron's
+            critically and commercially successful science-fiction thriller film The Terminator.
+            He subsequently played a similar Terminator character in most of the franchise's later installments,
+            Terminator 2: Judgment Day (1991), Terminator 3: Rise of the Machines (2003),
+            and Terminator Genisys (2015).
+            He has appeared in a number of other successful films, such as Commando (1985),
+            The Running Man (1987), Predator (1987), Twins (1988), Total Recall (1990),
+            Kindergarten Cop (1990), and True Lies (1994).
+            Schwarzenegger married Maria Shriver,
+            a niece of the 35th U.S. President John F. Kennedy and daughter of the 1972 Democratic vice presidential
+            candidate and former Ambassador to France Sargent Shriver, in 1986.
+            They separated in 2011 after he admitted to having fathered a child with another woman in 1997.
+            As a Republican, Schwarzenegger was first elected on October 7, 2003,
+            in a special recall election to replace then-Governor Gray Davis.
+            He was sworn in on November 17, to serve the remainder of Davis' term.
+            He was then re-elected in the 2006 California gubernatorial election,
+            to serve a full term as governor.
+            In 2011, he completed his second term as governor and returned to acting.
+            Schwarzenegger was nicknamed "the Austrian Oak" in his bodybuilding days, "Arnie" or "Schwarzy"
+            during his acting career, and
+            "The Governator" (a portmanteau of "Governor" and "Terminator") during his political career.
+        </biografija>
+        <filmografija>
+            Predator, Running Man, Terminator, Terminator 2: Judgement Day, Twins, Kindergarten Cop, True Lies
+        </filmografija>
+        <rezidencija>Los Angeles, California, U.S.</rezidencija>
+    </glumac>
+
+    <glumac glumacId="5" nacionalnost="GB" glumacSpol="M" wikiPageTitle="Ewan McGregor" brojDjece="4">
+        <ime>Ewan</ime>
+        <prezime>McGregor</prezime>
+        <datum_rodjenja>31 March, 1971</datum_rodjenja>
+        <partner statusVeze="Rastavljeni">
+            <partnerIme>Eve</partnerIme>
+            <partnerPrezime>Mavrakis</partnerPrezime>
+        </partner>
+        <zanimanje imeZanimanja="Glumac"/>
+        <zanimanje imeZanimanja="Redatelj"/>
+        <biografija>
+            Ewan Gordon McGregor OBE is a Scottish actor and director,
+            known internationally for his various film roles, including independent dramas,
+            science-fiction epics, and musicals.
+            McGregor's first professional role was in 1993,
+            when he won a leading role in the British Channel 4 series Lipstick on Your Collar.
+            Some of his best known roles include heroin addict Mark Renton in the drama films Trainspotting (1996)
+            and T2 Trainspotting (2017), Jedi Obi-Wan Kenobi in the Star Wars prequel trilogy (1999–2005),
+            poet Christian in the musical film Moulin Rouge! (2001), young Edward Bloom in Big Fish (2003),
+            Rodney Copperbottom in Robots (2005),
+            Camerlengo Father Patrick McKenna in Angels and Demons (2009),
+            "the ghost" in Roman Polanski's political thriller The Ghost Writer (2010),
+            Dr. Alfred Jones in the romantic comedy-drama Salmon Fishing in the Yemen (2011),
+            Lumière in a live-action adaptation of the musical romantic fantasy Beauty and the Beast (2017),
+            and the adult version of the titular character in the fantasy comedy-drama Christopher Robin (2018).
+            In 2018, McGregor won a Golden Globe Award for
+            Best Actor – Miniseries or Television Film for his performance as brothers in the third season of
+            FX anthology series Fargo,
+            and received Golden Globe nominations for Best Actor – Musical or Comedy for both Moulin Rouge!
+            and Salmon Fishing in the Yemen. McGregor has also starred in theatre productions of Guys
+            and Dolls (2005–07) and Othello (2007–08). He was ranked number 36
+            on Empire magazine's "The Top 100 Movie Stars of All Time" list in 1997.
+            In a 2004 poll for the BBC, McGregor was named the fourth most influential person in British culture.
+            McGregor has been involved in charity work and has served as an ambassador for UNICEF UK since 2004.
+            In 2013, he was appointed an Officer of the Order of the British Empire (OBE)
+            for services to drama and charity. In 2016, he received the BAFTA Britannia Humanitarian Award.
+        </biografija>
+        <filmografija>
+            Trainspotting, T2 Trainspotting, Star Wars Episode III: Revenge of the Sith, Beauty and the Beast
+        </filmografija>
+        <rezidencija>Los Angeles County, California, U.S.</rezidencija>
+    </glumac>
+
+
+    <glumac glumacId="6" nacionalnost="AT" glumacSpol="M" wikiPageTitle="Christoph Waltz" brojDjece="4">
+        <ime>Christoph</ime>
+        <prezime>Waltz</prezime>
+        <datum_rodjenja>4 October, 1956</datum_rodjenja>
+        <partner statusVeze="Oženjeni">
+            <partnerIme>Judith</partnerIme>
+            <partnerPrezime>Holste</partnerPrezime>
+        </partner>
+        <zanimanje imeZanimanja="Glumac"/>
+        <biografija>
+            Christoph Waltz; born 4 October 1956) is a
+            German-Austrian film and voice actor and director mainly active in the United States.
+            He is widely known for his work with American filmmaker Quentin Tarantino,
+            receiving critical acclaim for portraying SS officer Hans Landa in Inglourious Basterds (2009)
+            and bounty hunter King Schultz in Django Unchained (2012).
+            For both performances, he earned an Academy Award, BAFTA Award,
+            and Golden Globe Award for Best Supporting Actor.
+            Waltz also received the Best Actor Award at the Cannes Film Festival
+            and a Screen Actors Guild Award for his portrayal of Landa
+            Waltz portrayed computer genius Qohen Leth in the science fiction film The Zero Theorem (2013),
+            American plagiarist Walter Keane in the biographical film Big Eyes (2014),
+            and James Bond's nemesis Ernst Stavro Blofeld in Spectre (2015),
+            the twenty-fourth Bond film
+        </biografija>
+        <filmografija>
+            Inglorious Basterds, Django Unchained, Zero Theorem
+        </filmografija>
+        <rezidencija>Berlin, Germany</rezidencija>
+    </glumac>
+
+
+</podaci>

@@ -1,0 +1,396 @@
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*HEADER ELEMENTS*/
+header {
+    /*The Flexible Box Layout Module,
+    makes it easier to design flexible responsive layout structure without using float or positioning.*/
+    display: flex; /*define a flex container in header */
+    margin-bottom: 1.8vw;
+    background-color: black;
+    height: 35vh;
+}
+
+.pageTitle {
+    align-self: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 3vw; /*set the font-size to always be 3% of the current viewport width, even on re-sizing*/
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+.emptyPadding {
+    width: 15%;
+}
+
+.headerImageHomePageLink {
+    height: 100%;
+}
+
+/* last child = image when hovered*/
+/*if this element is the last child of its parent, dont display it while not hovered*/
+.headerImageHomePageLink img:last-child {
+    display: none;
+}
+
+/*if this element is the last child of its parent, display it while hovered*/
+.headerImageHomePageLink:hover img:last-child {
+    display: inline; /*Takes up only as much width as it needs, and does not force new lines*/
+    height: 100%;
+}
+
+/* first child = image when not hovered*/
+/*if this element is the first child of its parent, dont display it while hovered*/
+.headerImageHomePageLink:hover img:first-child {
+    display: none;
+}
+
+.headerImage {
+    height: 100%;
+}
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*Index Page Middle Section*/
+.middleSection { /*wrapper for middle section */
+    display: flex;
+    min-height: 103vh;
+}
+
+#table {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+/*Navigation*/
+nav {
+    width: 25vw;
+    background-color: gray;
+    margin-right: 2vw;
+}
+
+.navigationTitle {
+    font-family: "Arial Black", sans-serif;
+    font-size: 2vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+.navButtonsWrapper {
+    margin-left: 8%;
+    margin-top: 15%;
+    width: 75%;
+    height: 10%;
+}
+
+.navButton {
+    margin: 1.5vh;
+    border: none;
+    width: 100%;
+    height: 80%;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.78vh;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+
+}
+
+.navButton:hover {
+    cursor: pointer;
+    background-color: #E18728;
+}
+
+
+/*Middle Part of the  Index Page */
+.indexPageText {
+    width: 66vw;
+    background-color: gray;
+    border-right: 2vw solid black;
+    font-family: "Arial", sans-serif;
+    color: white;
+    font-weight: 900;
+    padding: 2vw;
+}
+
+.indexWelcomeImage {
+    display: block;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*Main Part of the  Search Page */
+.searchForm {
+    width: 72vw;
+    background-color: gray;
+}
+
+.formName {
+    font-family: "Arial Black", sans-serif;
+    font-size: 2vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+label {
+    padding-top: 1.8vh;
+    display: inline-block; /*if this is not here, padding doesn't work*/
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+/*make all boxes behave the same*/
+input, select {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*make all boxes same dimensions*/
+input[type=text], input[type=date], select {
+    width: 20vw;
+    padding: 1.5vh;
+}
+
+.formLineContainer {
+    padding: 1vw 4vw;
+}
+
+/* Clear floats after the columns */
+/*:after creates a pseudo-element that is the last child of the selected element.*/
+.formLineContainer:after {
+    content: ""; /*empty space between rows so that lines don't shift*/
+    display: block;
+    clear: both;
+}
+
+.formLineNameContainer {
+    float: left;
+    width: 25%;
+}
+
+.formLineInputContainer {
+    float: left;
+    width: 75%;
+}
+
+.radioText, .checkBoxText {
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+input[type=submit], input[type=reset] {
+    font-family: "Arial Black", sans-serif;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 1vw;
+}
+
+input[type=reset] {
+    float: right;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #E18728;
+}
+
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*Podaci page */
+#glumciPodaci {
+    float: left;
+    width: 98%;
+}
+
+#glumciPodaci tr:nth-child(even) {
+    background-color: lightgray;
+    color: gray;
+}
+
+#glumciPodaci tr:hover {
+    background-color: #E18728;
+    color: black;
+}
+
+#glumciPodaci th {
+    border-color: white;
+    column-width: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: "Arial", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+th, td {
+    font-size: 1.5vh;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.actorImage {
+    width: 7vw;
+}
+
+.moreButton {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.78vh;
+    text-decoration: underline;
+    text-decoration-color: lightgrey;
+    background-color: #E18728;
+
+}
+
+.moreButton:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+    text-decoration-color: #E18728;
+}
+
+.mapContainer {
+    height: 20vh;
+    float: left;
+    clear: left;
+}
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/* more subpage =====================================================================================================*/
+.imageRow {
+    display: flex;
+    margin-top: 1.8vw;
+    margin-bottom: 1.8vw;
+    padding-bottom: 2vh;
+    height: 35vh;
+}
+
+.actorImageMorePage {
+    object-fit: contain;
+    align-self: flex-start;
+    height: 15vw;
+}
+
+.actorImageMorePageSummary {
+    padding: 2vw;
+    flex: 1 1 auto;
+}
+
+.morePageTitles {
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+.morePageText {
+    background-color: gray;
+    font-family: "Arial", sans-serif;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.lessButtonContainer {
+    margin-top: 5vw;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+}
+
+.lessButton {
+    line-height: 3vh;
+    position: relative;
+    transition: padding-right .3s ease;
+    border: none;
+    width: 8vw;
+    height: 4vh;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.78vh;
+    text-decoration: underline;
+    text-decoration-color: lightgrey;
+    background-color: lightgrey;
+}
+
+.lessButton:hover {
+    cursor: pointer;
+    background-color: #E18728;
+    text-decoration-color: #E18728;
+}
+
+.lessButton.spinning {
+    padding-right: 40px;
+}
+
+.lessButton.spinning:after {
+    position: absolute;
+    animation: rotate360 .5s infinite linear, exist .1s forwards ease;
+}
+
+.lessButton.spinning:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    right: 6px;
+    top: 50%;
+    position: absolute;
+    border-right: 3px solid #E18728;
+    animation: rotate360 .5s infinite linear, exist .1s forwards ease;
+
+}
+
+@keyframes rotate360 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes exist {
+    100% {
+        width: 15px;
+        height: 15px;
+        margin: -8px 5px 0 0;
+    }
+}
+
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #E18728;
+    text-align: center;
+    margin-top: 1vw;
+}
+

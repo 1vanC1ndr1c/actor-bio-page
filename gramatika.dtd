@@ -1,0 +1,26 @@
+<!ELEMENT podaci (glumac*)>
+        <!ELEMENT  glumac (ime, prezime, datum_rodjenja, datum_smrti?, visina?, partner*, zanimanje+, biografija, filmografija, rezidencija*)>
+
+        <!ATTLIST glumac glumacId CDATA #REQUIRED ><!-- CDATA = text that doesn't contain markup, not parsed -->
+        <!ATTLIST glumac nacionalnost CDATA #REQUIRED >
+        <!ATTLIST glumac glumacSpol (M|F) #REQUIRED >
+        <!ATTLIST glumac wikiPageTitle CDATA #REQUIRED >
+        <!ATTLIST glumac brojDjece CDATA #IMPLIED>
+
+        <!ELEMENT ime (#PCDATA)>       <!-- PCDATA =  parsed -->
+        <!ELEMENT prezime (#PCDATA)>
+        <!ELEMENT datum_rodjenja (#PCDATA)>
+        <!ELEMENT datum_smrti (#PCDATA)>
+        <!ELEMENT visina (#PCDATA)>
+
+        <!ELEMENT partner (partnerIme, partnerPrezime)>
+        <!ELEMENT partnerIme (#PCDATA)>
+        <!ELEMENT partnerPrezime (#PCDATA)>
+        <!ATTLIST partner statusVeze (Rastavljeni|Oženjeni|Udani|Partneri) #REQUIRED>
+
+        <!ELEMENT zanimanje EMPTY>
+        <!ATTLIST zanimanje imeZanimanja CDATA #REQUIRED>
+
+        <!ELEMENT biografija (#PCDATA)>
+        <!ELEMENT filmografija (#PCDATA)>
+        <!ELEMENT rezidencija (#PCDATA)>
